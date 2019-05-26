@@ -1,0 +1,53 @@
+<html>
+<HEAD>
+  <TITLE>BankAccount</TITLE>
+  <link rel="stylesheet" href="signup.css">
+ </HEAD>
+ <body>
+ 
+ <p id="text" text-color="blue"><b>CREATE YOUR NEW BANK ACCOUNT</b></p>  
+ 
+
+ <form>
+
+
+	<TABLE>
+	<TR>
+		<TD>FIRST NAME :</TD>
+		<TD>  <input id="name" type="text" name="text1" autofocus></input></TD>
+	</TR>
+	<TR>
+		<TD>SECOND NAME :</TD>
+		<TD>  <input id="name" type="text" name="text1" autofocus></input></TD>
+	</TR>
+	<TR>
+		<TD>GENDER :</TD>
+		<TD>MALE :<input type="radio" name="small"></input>&nbsp&nbsp
+	FEMALE :<input type="radio" name="medium"></input>&nbsp&nbsp
+	OTHER :<input type="radio" name="large"></input></TD>
+	</TR>
+	<TR>
+		<TD>E-MAIL :</TD>
+		<TD>	<input id="email" type="email" name="email1" multiple></TD>
+	</TR>
+	<TR>
+		<TD>DATE OF BIRTH</TD>
+		<TD><input id="date" type="date" name="date1"
+	    pattern="\d{2}-\d{2}-\d{4}" title="DD-MM-YYYY"></INPUT></TD>
+	</TR>
+	<TR>
+		<TD>PASSWORD :</TD>
+		<TD><input id="password"type="PASSWORD" name="password"></input></TD>
+	</TR>
+	<TR>
+		<TD>CONFIRM PASSWORD : </TD>
+		<TD><input id="password"type="PASSWORD" name="password"></input></TD>
+	</TR>
+	<TR>
+		<TD>MOBLIE :</TD>
+		<TD> <input id="name" type="NUMBER" name="text1" autofocus></input></TD>
+	</TR>
+	</TABLE>
+ </form>
+ </body>
+</html>
