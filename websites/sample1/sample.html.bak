@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+
+ <HEAD>
+  <TITLE> yogi</TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+  
+ </HEAD>
+
+ <BODY bgcolor="grey">
+
+ <table border=0 width=100%>
+ <tr>
+ <td align ="center">
+ 
+  <font  color ="#ff9999" size="24">
+ <a onmouseover="this.style.fontweight='bold';" onmouseout="this.style.fontweight='normal';"href="" >
+
+ YOGESH
+
+ </a>
+  </font>
+</td>
+</tr>
+<table border=0 width =100%>
+<tr>
+<td align="center">
+  <a onmouseover="this.style.color='lime';"style="color:#ff9999" onmouseout="this.style.color='#ff9999';"href="">HOME</a>
+  </td>
+  <td align="center">
+  <a onmouseover="this.style.color='lime';"style="color:#ff9999" onmouseout="this.style.color='#ff9999';"href="">GALLERY</a>
+  </td>
+  <td align="center">
+  <a onmouseover="this.style.color='lime';"style="color:#ff9999" onmouseout="this.style.color='#ff9999';"href="">NEWS</a>
+  </td>
+  <td align="center">
+  <a onmouseover="this.style.color='lime';"style="color:#ff9999" onmouseout="this.style.color='#ff9999';"href="">SEARCH</a>
+    </td>
+	<td align="center">
+	<a onmouseover="this.style.color='lime';"style="color:#ff9999" onmouseout="this.style.color='#ff9999';"href="">HELP</a>
+ </td>
+ <td align="center">
+	<a onmouseover="this.style.color='lime';"style="color:#ff9999" onmouseout="this.style.color='#ff9999';"href="sign in.html">SIGN IN</a>
+ </td>
+ </table>
+ <marquee direction="right">
+  !............hi frndz.............!
+  </marquee>
+
+<img src=" C:\Users\chary\Desktop\html\websites\zzz.jpg" width=180 height=100>
+
+
+
+
+
+ </BODY>
+
+
+
+</HTML>

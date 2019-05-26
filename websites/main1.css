@@ -1,0 +1,24 @@
+body {
+background-color:skyblue;
+}
+body,p,input {
+line-height:1.5;
+font-family:tahoma,sans-serif;
+font-size:14pt;
+}
+#style1{
+ border :1px;
+ margin: 5px;
+ 
+ background-color:gray;
+ 
+}
+p { margin-left:1em; margin:1ex 12pt;}
+#results{
+width:50%;
+text-align:none;
+   float:left;
+    margin :0 1px;
+	background-color:#def;
+	
+}

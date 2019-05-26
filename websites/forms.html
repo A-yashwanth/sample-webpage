@@ -1,0 +1,67 @@
+<HTML>
+ <HEAD>
+  <TITLE> HTML FORMS EXAMPLE</TITLE>
+ <link rel="stylesheet" type="text/css" href="main1.css">
+ <script type="text/javascript" language="javascript" src="forms.js" ></script>
+ </HEAD>
+ <body>
+ <table border=0px; width="100%">
+ <tr >
+ <td >
+ <h1><u>FORMS</u> </h1>
+ </td>
+ <td >
+ <h2>RESULTS : </h2>
+ </td>
+ </tr>
+ </table>
+ <table border=1px;>
+ <tr><td width="50%">
+ <div id="style1">
+ <form>
+    <p> NAME : <input id="name" type="text"	name="text1" autofocus></input></p>
+	<p>PASSWORD : <input id="password"type="PASSWORD" name="password"></input></p>
+	<p><u>CHECKBOXES</u> :</p>
+	<p>RED :<input type="checkbox" name="red"></input>&nbsp&nbsp
+	GREEN :<input type="checkbox" name="GREEN"></input>&nbsp&nbsp
+	BLUE :<input type="checkbox" name="blue"></input>
+	</p>
+	<p><u>RADIO BUTTONS</u>:</p>
+	<p>SMALL :<input type="radio" name="small"></input>&nbsp&nbsp
+	MEDIUM :<input type="radio" name="medium"></input>&nbsp&nbsp
+	LARGE:<input type="radio" name="large"></input>
+	</p>
+	<p>DATE : <input id="date" type="date" name="date1"
+	    pattern="\d{2}-\d{2}-\d{4}" title="DD-MM-YYYY"></INPUT> </p>
+	<p>	COLOR :<input id="color" type="color" name="color1" value="#336699"></input></p>
+	<p>	E-MAIL :<input id="email" type="email" name="email1" multiple></input></p>	
+	<p>	NUMBER (1-5) :<input id="num" type="NUMBER" name="number1" value="1" min="1" max="5"></input></p>
+	<p>	RANGE (1-100 in steps of 10) :<input  id="range" type="range" name="range1" value="20"
+       step="10"	min="0" max="100"></input></p>
+	<p>	SEARCH :<input  id="search" type="SEARCH" name="date1"></input></p>
+	<p>	URL :<input  id="urllink"  type="URL" name="URL1"></input></p>
+	<P> TEXT AREA : </P>
+	<P> <textarea  id="area" name="textarea1"></textarea>
+
+	   <p><u>SELECTION LISTS</u></P>
+	    <select id="list" name="select1">
+		   <option value=""disabled selected>--select one--</option>
+		   <option value="one">one</option>
+		   <option value="two">two</option>			   
+		   <option value="three">three</option>
+		</select>
+   
+	
+	<p> <input id="submit" type="submit" value="submit" onclick="displaydata();">
+	</p>
+ </form>
+ </div>
+</td>
+<td id="results">
+ <div id="right" >
+  <h3>RESULTS GO HERE </h3>
+ </div>
+ </td></tr>
+</table>
+ </body>
+ </html>

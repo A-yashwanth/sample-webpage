@@ -1,0 +1,20 @@
+body {background-color : gray}
+
+p {color : blue;}
+
+h1 {color : black ;}
+#top  ul {
+  display :block;
+  margin :0;
+  background-color :green;
+  background-position :center
+  color :green;
+  
+}
+ a:hover {border-bottom :#dal solid 2px;}
+ 
+ #right
+ {
+  float : right;
+  width :20%;
+ }

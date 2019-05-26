@@ -1,0 +1,30 @@
+<html>
+  <head>
+   <title>menu list </title>
+   <script type="text/javascript">
+      var video;
+	  function init() {
+	     video = document.getElementById('video1');
+	  }
+	  function play() {video.play ();}
+	   function pause() {video.pause ();}
+	    function rewind() {video.currenttime=0;}
+		window.onload=init;
+   </script>
+  </head>
+  <body>
+     <h1> html5 video </h1>
+	 <p>here is the video file</p>
+	 <video  id="video1" controls autoplay loop width="860" height="480">
+	    <source src="song/video.mp4 " type="video/mp4"></source>
+		 <source src="song/video.mkv" type="video/mkv"> </source>
+		  <source src="song/video.ogg" type="video/ogg"></source>
+		  <p>ur browser doesn't support html5</p>
+	 </video>
+	 <form>
+	    <input type="button" value ="play" onclick="play()"></input>
+		<input type="button" value ="pause" onclick="pause()"></input>
+		<input type="button" value ="rewind" onclick="rewind()"></input>
+	 </form>
+  </body>
+</html>  

@@ -1,0 +1,305 @@
+<HTML>
+ <HEAD>
+  <TITLE> HTML FORMS EXAMPLE</TITLE>
+  <link rel="stylesheet" type="text/css" href="main1.css">
+ <!--<script type="text/javascript" language="javascript" src="forms.js" ></script>-->
+ <script type="text/javascript" language="javascript">
+     function showDetails() {
+         document.getElementById('right').style.visibility = "visible";
+
+
+
+         document.getElementById('lblName').innerHTML = document.getElementById('name').value;
+         document.getElementById('lblDate').innerHTML = document.getElementById('date').value;
+         document.getElementById('lblColor').innerHTML = document.getElementById('color').value;
+         document.getElementById('lblEmail').innerHTML = document.getElementById('email').value;
+         document.getElementById('lblNumber').innerHTML = document.getElementById('num').value;
+         document.getElementById('lblRange').innerHTML = document.getElementById('range').value;
+         document.getElementById('lblSearch').innerHTML = document.getElementById('search').value;
+         document.getElementById('lblURL').innerHTML = document.getElementById('urllink').value;
+         document.getElementById('lblTextArea').innerHTML = document.getElementById('area').value;
+         document.getElementById('lblDropdownList').innerHTML = document.getElementById('list').value;
+
+         //Radio Buttons
+         var RadioButtonValue = document.querySelector('input[name="rbutton"]:checked').value;
+         document.getElementById('lblRadioButton').innerHTML = RadioButtonValue;
+         
+         //Checkboxes
+         var Color = document.getElementById('Red').checked;
+         var ColorText = '';
+         if (Color == true)
+             ColorText = ", Red";
+         Color = document.getElementById('Green').checked;
+         if (Color == true)
+             ColorText = ColorText + ", Green";
+         Color = document.getElementById('Blue').checked;
+         if (Color == true)
+             ColorText = ColorText + ", Blue";
+
+         document.getElementById('lblCheckboxes').innerHTML = ColorText.slice(2);
+
+
+         
+
+         
+
+         
+     }
+ </script>
+ </HEAD>
+ <body>
+ <table border=0px; width="100%">
+ <tr >
+ <td >
+ <h1><u>FORMS</u> </h1>
+ </td>
+ <td >
+ <h2>RESULTS : </h2>
+ </td>
+ </tr>
+ </table>
+ <table border=1px;>
+ <tr><td width="50%">
+ <div id="style1">
+ <form>
+ <table>
+ <tr>
+ <td>
+ NAME : 
+ </td>
+ <td>
+ <input id="name" type="text" name="text1" autofocus></input>
+ </td>
+ </tr>
+ <tr>
+ <td>
+ PASSWORD : 
+ </td>
+ <td>
+ <input id="password"type="PASSWORD" name="password"></input>
+ </td>
+ </tr>
+ <tr>
+ <td>
+ CHECKBOXES :
+ </td>
+ <td>
+ RED :<input type="checkbox" id="Red" name="red"></input>&nbsp&nbsp
+	GREEN :<input type="checkbox" id="Green" name="GREEN"></input>&nbsp&nbsp
+	BLUE :<input type="checkbox" id="Blue" name="blue"></input>
+ </td>
+</tr>
+<tr>
+<td>
+<u>RADIO BUTTONS</u>
+</td>
+<td>
+    SMALL :<input type="radio" id="small" name="rbutton" value="Small"></input>&nbsp&nbsp
+	MEDIUM :<input type="radio" id="medium" name="rbutton" value="Medium"></input>&nbsp&nbsp
+	LARGE:<input type="radio" id="large" name="rbutton" value="Large"></input>
+</td>
+</tr>
+<tr>
+<td>
+DATE :
+</td>
+<td>
+<input id="date" type="date" name="date1"
+	    pattern="\d{2}-\d{2}-\d{4}" title="DD-MM-YYYY"></INPUT>
+</td>
+</tr>
+<tr>
+<td>
+	COLOR :
+</td>
+<td>
+<input id="color" type="color" name="color1" value="#336699"></input>
+</td>
+</tr>
+<tr>
+<td>
+E-MAIL :
+</td>
+<td>
+<input id="email" type="email" name="email1" multiple></input>
+</td>
+</tr>
+<tr>
+<td>
+NUMBER (1-5) :
+</td>
+<td>
+<input id="num" type="NUMBER" name="number1" value="1" min="1" max="5"></input>
+</td>
+</tr>
+<tr>
+<td>
+RANGE (1-100 in steps of 10) :
+</td>
+<td>
+<input  id="range" type="range" name="range1" value="20"
+       step="10"	min="0" max="100"></input>
+</td>
+</tr>
+<tr>
+<td>
+SEARCH :
+</td>
+<td>
+<input  id="search" type="SEARCH" name="date1">
+</td>
+</tr>
+<tr>
+<td>
+URL :
+</td>
+<td>
+<input  id="urllink"  type="URL" name="URL1"></input>
+</td>
+</tr>
+<tr>
+<td>
+TEXT AREA :
+</td>
+<td>
+<textarea  id="area" name="textarea1"></textarea>
+</td>
+</tr>
+<tr>
+<td>
+<u>SELECTION LISTS</u>
+</td>
+<td>
+<select id="list" name="select1">
+		   <option value="" disabled selected>--select one--</option>
+		   <option value="one">one</option>
+		   <option value="two">two</option>			   
+		   <option value="three">three</option>
+		</select>
+</td>
+</tr>
+<tr>
+<td align="right">
+<input id="showdetails" type="button" value="Show Details" onclick="showDetails();">
+</td>
+<td>
+<input id="submit" type="submit" value="submit" onclick="showDetails();">
+</td>
+</tr>
+ </table>
+ </form>
+ </div>
+</td>
+<td id="results">
+ <div id="right" style="visibility:hidden">
+ <table>
+ <tr>
+ <td>
+ <h3>RESULTS GO HERE </h3>
+ </td>
+ </tr>
+ <tr>
+ <td>
+ Name :
+ </td>
+ <td>
+ <label id="lblName"></label>
+ </td>
+ </tr>
+ <tr>
+ <td>
+ Colors :
+ </td>
+ <td>
+ <label id="lblCheckboxes"></label>
+ </td>
+ </tr>
+  <tr>
+  <td>
+  Size :
+  </td>
+  <td>
+  <label id="lblRadioButton"></label>
+  </td>
+  </tr>
+  <tr>
+  <td>
+  Date :
+  </td>
+  <td>
+  <label id="lblDate"></label>
+  </td>
+  </tr>
+  <tr>
+  <td>
+  Color :
+  </td>
+  <td>
+  <label id="lblColor"></label>
+  </td>
+  </tr>
+  <tr>
+  <td>
+  Email :
+  </td>
+  <td>
+  <label id="lblEmail"></label>
+  </td>
+  </tr>
+  <tr>
+  <td>
+  Number :
+  </td>
+  <td>
+  <label id="lblNumber"></label>
+  </td>
+  </tr>
+  <tr>
+  <td>
+  Range :
+  </td>
+  <td>
+  <label id="lblRange"></label>
+  </td>
+  </tr>
+  <tr>
+  <td>
+  Search :
+  </td>
+  <td>
+  <label id="lblSearch"></label>
+  </td>
+  </tr>
+  <tr>
+  <td>
+  URL :
+  </td>
+  <td>
+  <label id="lblURL"></label>
+  </td>
+  </tr>
+  <tr>
+  <td>
+  Text Area :
+  </td>
+  <td>
+  <label id="lblTextArea"></label>
+  </td>
+  </tr>
+  <tr>
+  <td>
+  Selected Item :
+  </td>
+  <td>
+  <label id="lblDropdownList"></label>
+  </td>
+  </tr>
+  
+  
+  </table>
+  
+ </div>
+ </td></tr>
+</table>
+ </body>
+ </html>

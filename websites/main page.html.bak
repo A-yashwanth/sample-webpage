@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> main page</TITLE>
+  <link rel="stylesheet" type="text/css" href="menu3.css">
+
+    </HEAD>
+
+ <BODY >
+ 
+ <header id="head"> 
+  <h1>HTML USER </h1>
+  <h2>THIS PAGE GIVES SOME DETAILS ABOUT HTML5 </h2>
+</header> 
+<p></p>
+<audio  id="audio1"  controls autoplay loop>
+	    <source src="kathi.mp3 " type="audio/mpeg"></source>
+		 <source src=" kathi.m4a" type="audio/x-aac"> </source>
+		  <source src=" kathi.ogg" type="audio/ogg"></source>
+		  <p>ur browser doesn't support html5</p>
+	 </audio>
+ <iframe id="frame1" src="f1.html">
+  <p> your browser is disfunctional.</p>
+ </iframe>
+
+ <div>
+   <table id="tab" border=1>
+     <thead>
+      <tr id="td-head">
+	      <td>FUNCTIONS</td>
+		  <td>PAGES</td>
+      </tr>
+     </thead>	
+     <tbody>
+     <tr id="td-odd">
+	      <td>PHRASES</td>
+		  <td><a href="phrase.html">click here</a></td>
+      </tr>
+	   <tr id="td-even">
+	      <td>MENU</td>
+		  <td><a href="menu.html">click here</a></td>
+      </tr>
+	   <tr id="td-odd">
+	      <td>AUDIO FILE</td>
+		  <td><a href="audio.html">click here</a></td>
+      </tr>
+	   <tr id="td-even">
+	      <td>VIDEO FILE</td>
+		  <td><a href="video.html">click here</a></td>
+      </tr>
+	   <tr id="td-odd">
+	      <td>SAMPLE WEBPAGE</td>
+		  <td><a href="page.html">click here</a></td>
+      </tr>
+	  <tr id="td-even">
+	      <td>COUNTDOWN</td>
+		  <td><a href="countdown using java.html">click here</a></td>
+      </tr>
+	  <tr id="td-odd">
+	      <td>FRAMES</td>
+		  <td><a href="FRAMES.html">click here</a></td>
+      </tr>
+	   <tr id="td-even">
+	      <td>FORMS</td>
+		  <td><a href="FORMS.html">click here</a></td>
+      </tr>
+	   <tr id="td-odd">
+	      <td>IFRAMES</td>
+		  <td><a href="iFRAME.html">click here</a></td>
+      </tr>
+	   
+	   
+	  
+     </tbody>	 
+   </table> 
+</div>
+<br><br>
+<div>
+
+<table id="tab" border=1 align="left">
+     <thead>
+      <tr id="td-head">
+	      <td>ANIMATIONS USING BOXES</td>
+		  <td>PAGES</td>
+      </tr>
+     </thead>	
+     <tbody>
+     <tr id="td-odd">
+	      <td> OUTLOOK </td>
+		  <td><a href="BOX.html">click here</a></td>
+      </tr>
+	   <tr id="td-even">
+	      <td>ROTATIONS AT PARTICULAR ANGLE</td>
+		  <td><a href="box1.html">click here</a></td>
+      </tr>
+	   <tr id="td-odd">
+	      <td>   CIRCULAR ROTATION </td>
+		  <td><a href="box3.html">click here</a></td>
+      </tr>
+</div>
+
+   
+ </BODY>
+</HTML>

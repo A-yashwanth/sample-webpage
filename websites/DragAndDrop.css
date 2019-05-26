@@ -1,0 +1,23 @@
+body{
+ background:#cce;
+}
+#left{
+margin:20px;
+float:left;
+padding : 5px;
+width : 250px;
+height :250px;
+border : 3px solid blue;
+
+}
+#right{
+margin:20px;
+float:left;
+padding : 5px;
+width : 250px;
+height :250px;
+border : 3px solid red;
+
+
+}
+

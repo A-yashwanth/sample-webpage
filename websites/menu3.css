@@ -1,0 +1,48 @@
+
+body {
+background:url('3.jpg') #A98436 no-repeat left top;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+}
+#audio1{
+  float:left;
+ 
+}
+#head{
+color : white;
+text-align :center;
+}
+#tab {
+border-collapse:collapse;
+font-family:tahoma ,sans-serif;
+margin-left : 25%;
+width :50%;
+text-align :center;
+border :0px;
+}
+#td-head{
+  background-color:ecf; 
+  font-size:18;
+  font-weight :bold;
+  color : red;
+}
+#td-even{
+  background-color:def; 
+}
+#td-odd{
+  background-color:cef; 
+}
+ a :hover { font-weight:bold;
+
+ color: red;
+   }
+    
+ #frame1 {
+    display :block;
+		float : right;
+		width : 20%;
+		height : 400px;
+		}
+
+ 

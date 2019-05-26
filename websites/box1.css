@@ -1,0 +1,46 @@
+ body  {
+ background :#ced;
+}
+#box {
+  display :block;
+  background-color : yellow;
+  width :300;
+  height:100;
+
+  text-align:center;
+  margin : 100px auto;
+  padding:10px;
+ outline: 7px solid red;
+ border : 7px solid green;
+ -webkit-transform: scale(1,1); /*-- ratio a/c to there width and height */
+ -webkit-transform : rotate(15deg);
+
+}
+#box:hover{
+-webkit-transform:rotate(0deg);
+}
+#box1 {
+  display :block;
+  background : #edf;
+  width :300;
+  height:150;
+  background:-webkit-radial-gradient(center,circle, #ced 0%, gray 50%);
+  text-align:center;
+  margin : 100px auto;
+  padding:10px;
+ -webkit-border-radius :25; 
+ -webkit-box-shadow : rgb(110 ,110 ,110) 8px 8px 8px inset;  
+  -webkit-transform: skew(20deg);
+  -webkit-transform: translate (300px,0px);  /*this is use to a (x,y) position*/
+  -webkit-transition:-webkit-transform 2s;
+  }
+#box1:hover{
+-webkit-transform:rotate(20deg);
+}
+
+
+#text {
+ font : bold 25px century gothic;
+ text-align:center;
+ text-shadow : rgb(110 ,110 ,110) 8px 8px 8px ;
+}

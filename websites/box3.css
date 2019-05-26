@@ -1,0 +1,33 @@
+body  {
+ background :#ced;
+ text-align:center;
+}
+#box {
+  display :block;
+  background-color : #cc8888;
+  width :300;
+  height:100;
+  color :white;
+  text-align:center;
+  margin : 100px auto;
+  padding:10px;
+ -webkit-border-radius :25; 
+-webkit-transition:-webkit-transform 2s ,opacity 2s,
+background 2s, width 2s, height 2s;
+}
+#box:hover{
+-webkit-transform:rotate(360deg);
+  opacity:1;
+  background:#1ec7e6;
+  width:450px;
+  height :150px;
+  clear:both;
+}
+
+
+
+#text {
+ font : bold 25px century gothic;
+ text-align:center;
+ text-shadow : rgb(110 ,110 ,110) 8px 8px 8px ;
+}

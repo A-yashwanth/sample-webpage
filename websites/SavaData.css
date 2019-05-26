@@ -1,0 +1,14 @@
+#left{
+ margin : 10px;
+ float:left;
+  border :3px solid blue;
+  padding : 10px;
+}
+#right{
+ float:left;
+ width : 250px;
+ height : 500px;
+ padding :8px;
+  margin:10px;
+  border :3px solid blue;
+}

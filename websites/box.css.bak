@@ -1,0 +1,33 @@
+body  {
+ background :#ced;
+}
+#box {
+  display :block;
+  background : #cc3333;
+  width :300;
+  height:150;
+  color : white;
+  text-align:center;
+  margin : 100px auto;
+  padding:10px;
+  background:-webkit-linear-gradient(top,#cc3333, green);
+ -webkit-border-radius :25; 
+ -webkit-box-shadow : rgb(110 ,110 ,110) 8px 8px 8px;  
+}
+#box1 {
+  display :block;
+  background : #edf;
+  width :300;
+  height:150;
+  background:-webkit-radial-gradient(center,circle, #ced 0%, gray 50%);
+  text-align:center;
+  margin : 100px auto;
+  padding:10px;
+ -webkit-border-radius :25; 
+ -webkit-box-shadow : rgb(110 ,110 ,110) 8px 8px 8px inset;  
+}
+#text {
+ font : bold 25px century gothic;
+ text-align:center;
+ text-shadow : rgb(110 ,110 ,110) 8px 8px 8px ;
+}
